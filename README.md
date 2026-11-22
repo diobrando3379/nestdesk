@@ -30,7 +30,7 @@ English | [简体中文](README.zh-CN.md)
 
 | | |
 |---|---|
-| **Boxes** | Drag the title bar to move (snaps to the work area), drag edges to resize, scroll with the wheel. Per box: fold, lock, rename, color, opacity, icon/list view, sort by name/type/size/date or manual drag order. |
+| **Boxes** | Drag the title bar to move (snaps to the work area), drag edges to resize, scroll with the wheel. Per box: fold, lock, rename, color, opacity, icon/list view, icons arranged across (row by row) or down (column by column, like the desktop), aligned left or right, sort by name/type/size/date or manual drag order. |
 | **One-click organize** | Sorts desktop items into boxes by rules (apps, folders, documents, images, video, music, archives, code…). Rules are a plain JSON file you can edit. |
 | **Folder boxes** | A box that shows the live contents of any folder. Network and removable drives are read in the background so the desktop never freezes. |
 | **Same desktop as before** | Icons outside boxes are drawn exactly where Windows has them, with the system's spacing, font, shortcut arrows and UAC shields — starting NestDesk changes nothing you can see. Sorting and auto-arrange are passed to Windows, and icons you drag are saved back to the system desktop. |
@@ -42,6 +42,7 @@ English | [简体中文](README.zh-CN.md)
 | **Real shell integration** | Right-click shows the native Windows context menu (Open with, Send to, 7-Zip…). Drag and drop to and from Explorer and other apps. <kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>X</kbd>/<kbd>V</kbd>, <kbd>Delete</kbd> (to Recycle Bin), <kbd>F2</kbd> rename, arrow keys, <kbd>Shift</kbd>/<kbd>Ctrl</kbd> multi-select, rubber-band selection. |
 | **Frosted glass** (optional) | A per-box blurred wallpaper backdrop. Automatically falls back to plain translucency for live wallpapers, solid colors and slideshows. Off by default. |
 | **Multi-monitor & HiDPI** | Box positions are stored as anchors per monitor layout; one uniform scale is used across monitors and re-checked when display settings change. |
+| **Automatic updates** | On by default: NestDesk checks the official release page in the background, verifies the download against the published SHA-256, and installs it silently when you are away from the computer, then starts again with your boxes and settings. Turn it off in Settings, or use **检查更新** (check for updates) in the tray menu. |
 | **Safe by design** | Layout backups and restore, pause (restore system icons) from the tray, start with Windows (opt-in). If anything goes wrong, `nestdesk.exe --restore` brings the system icons back. |
 
 ## Download
