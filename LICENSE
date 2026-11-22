@@ -1,0 +1,37 @@
+NestDesk 栖格桌面 — 软件许可 / Software License
+
+Copyright (c) 2026 DioBrando. 保留所有权利 / All rights reserved.
+
+【中文】
+
+1. 免费使用：任何个人或单位都可以免费下载、安装和使用本软件，包括用于工作。
+2. 转发：可以原样转发官方发布的安装包或免安装版，但必须保留本许可文件，
+   不得收费出售，也不得捆绑其他软件。
+3. 不开放源代码：本软件不提供源代码。不得修改本软件后再发布，
+   也不得以本软件的名义发布任何修改版。
+4. 第三方组件：本软件包含的开源组件按各自的许可证授权，
+   见随附的 THIRD-PARTY-NOTICES.txt。
+5. 免责声明：本软件按"原样"提供，不附带任何明示或暗示的保证。
+   在法律允许的范围内，作者不对因使用或无法使用本软件造成的任何损失负责。
+
+NestDesk 是独立开发的软件，与腾讯公司及"腾讯桌面整理"没有任何关联。
+
+【English】
+
+1. Free to use: anyone may download, install and use this software free of
+   charge, including for work.
+2. Redistribution: you may redistribute the official, unmodified installer or
+   portable package, provided this license file is included. You may not sell
+   it or bundle it with other software.
+3. No source code: the source code of this software is not published. You may
+   not distribute modified versions of this software, or publish any modified
+   version under its name.
+4. Third-party components: open-source components included in this software
+   are licensed under their own terms; see THIRD-PARTY-NOTICES.txt.
+5. Disclaimer: this software is provided "as is", without warranty of any
+   kind, express or implied. To the extent permitted by law, the author is not
+   liable for any damage arising from the use of, or inability to use, this
+   software.
+
+NestDesk is independent software and is not affiliated with Tencent or
+Tencent DeskGo.
