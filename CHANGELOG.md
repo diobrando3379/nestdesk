@@ -4,6 +4,11 @@ All notable changes to this project are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to
 [Semantic Versioning](https://semver.org/).
 
+## [3.1.1] - 2026-11-25
+
+### Fixed
+- The Recycle Bin icon now switches between full and empty like Explorer's. NestDesk watches the Recycle Bin itself, so emptying it (or deleting / restoring items) updates the icon right away; before, the icon could stay "full" after the bin was emptied.
+
 ## [3.1.0] - 2026-11-22
 
 ### Added
@@ -75,6 +80,7 @@ First public release.
 - A single long-lived COM worker thread replaces per-request threads (fixes slow kernel-handle growth).
 - 1-hour steady-state runs show flat private memory, handles and GDI objects.
 
+[3.1.1]: https://github.com/diobrando3379/nestdesk/releases/tag/v3.1.1
 [3.1.0]: https://github.com/diobrando3379/nestdesk/releases/tag/v3.1.0
 [3.0.0]: https://github.com/diobrando3379/nestdesk/releases/tag/v3.0.0
 [2.0.0]: https://github.com/diobrando3379/nestdesk/releases/tag/v2.0.0
