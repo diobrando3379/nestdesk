@@ -4,6 +4,11 @@ All notable changes to this project are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to
 [Semantic Versioning](https://semver.org/).
 
+## [3.2.0] - 2026-11-26
+
+### Added
+- **Gaps left by boxed icons are filled automatically** (on by default). Icons in a box still have a spot on the Windows desktop, so the icons left on the desktop used to show holes where boxed icons sat. Now the remaining desktop icons close up in their existing order (top to bottom, column by column), and the boxed icons' spots move after them, so the plain Windows desktop has no overlaps after quitting NestDesk. Only spots that already held an icon are reused; empty areas you left on purpose stay empty, and an icon you drag somewhere yourself stays there. Settings → 图标放进格子后，桌面上的空位自动补上.
+
 ## [3.1.1] - 2026-11-25
 
 ### Fixed
@@ -80,6 +85,7 @@ First public release.
 - A single long-lived COM worker thread replaces per-request threads (fixes slow kernel-handle growth).
 - 1-hour steady-state runs show flat private memory, handles and GDI objects.
 
+[3.2.0]: https://github.com/diobrando3379/nestdesk/releases/tag/v3.2.0
 [3.1.1]: https://github.com/diobrando3379/nestdesk/releases/tag/v3.1.1
 [3.1.0]: https://github.com/diobrando3379/nestdesk/releases/tag/v3.1.0
 [3.0.0]: https://github.com/diobrando3379/nestdesk/releases/tag/v3.0.0
